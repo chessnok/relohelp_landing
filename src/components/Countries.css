@@ -1,0 +1,67 @@
+.Countries {
+  padding: var(--section-padding-y) var(--section-padding-x);
+  background: var(--color-bg);
+}
+
+.Countries__inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.Countries__heading {
+  font-size: var(--text-h2);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 0.5rem;
+  text-align: center;
+}
+
+.Countries__intro {
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.Countries__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.Countries__card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+
+.Countries__flag {
+  display: inline-block;
+  width: 3rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.Countries__name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 0.25rem;
+}
+
+.Countries__visas {
+  font-size: var(--text-small);
+  color: var(--color-text-secondary);
+  margin: 0;
+}

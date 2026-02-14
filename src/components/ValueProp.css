@@ -1,0 +1,62 @@
+.ValueProp {
+  padding: var(--section-padding-y) var(--section-padding-x);
+  background: var(--color-bg);
+}
+
+.ValueProp__inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.ValueProp__heading {
+  font-size: var(--text-h2);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 0.5rem;
+  text-align: center;
+}
+
+.ValueProp__intro {
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin: 0 0 2rem;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ValueProp__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.ValueProp__card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-card);
+}
+
+.ValueProp__icon {
+  display: inline-flex;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.ValueProp__cardTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 0.25rem;
+}
+
+.ValueProp__cardDesc {
+  font-size: var(--text-small);
+  color: var(--color-text-secondary);
+  margin: 0;
+}

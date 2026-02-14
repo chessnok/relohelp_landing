@@ -1,0 +1,46 @@
+.Footer {
+  padding: 2rem var(--section-padding-x);
+  background: var(--color-text);
+  color: var(--color-bg-muted);
+}
+
+.Footer__inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Footer__disclaimer {
+  font-size: var(--text-small);
+  color: var(--color-bg-muted);
+  opacity: 0.9;
+  max-width: 40rem;
+  margin: 0 auto 1.5rem;
+  line-height: var(--line-height-body);
+}
+
+.Footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Footer__links a {
+  font-size: var(--text-small);
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.Footer__links a:hover {
+  text-decoration: underline;
+}
+
+.Footer__copy {
+  font-size: 0.8125rem;
+  color: var(--color-bg-muted);
+  opacity: 0.7;
+  margin: 0;
+}
