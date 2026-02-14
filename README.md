@@ -1,40 +1,40 @@
 # ReloHelp Landing
 
-Лендинг [ReloHelp](https://relohelp.com) — сервиса подбора виз и дорожной карты релокации с помощью AI (Visa Fit Assistant) для основателей и цифровых номадов.
+Landing page for [ReloHelp](https://relohelp.com) — AI-powered visa matching and relocation roadmap (Visa Fit Assistant) for founders and digital nomads.
 
-## Стек
+## Stack
 
 - React 18
 - Create React App (react-scripts)
-- Netlify (хостинг статики)
+- Netlify (static hosting)
 
-## Скрипты
+## Scripts
 
 ```bash
-# Установка зависимостей
+# Install dependencies
 yarn
 
-# Локальная разработка
+# Local development
 yarn start
 
-# Сборка для продакшена
+# Production build
 yarn build
 ```
 
-Приложение по умолчанию на `http://localhost:3000`.
+The app runs at `http://localhost:3000` by default.
 
-## Деплой
+## Deployment
 
-Проект настроен для деплоя на Netlify:
+The project is set up for deployment on Netlify:
 
 - **Build command:** `yarn build`
 - **Publish directory:** `build`
 
-## Структура
+## Structure
 
-- `public/` — статика, `index.html`, манифест, favicon
-- `src/` — исходники React-приложения (компоненты, стили)
+- `public/` — static assets, `index.html`, manifest, favicon
+- `src/` — React app source (components, styles)
 
-## Лицензия
+## License
 
-Приватный репозиторий.
+Private repository.
